@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 94px;
+    background-color: #000000;
+    position: relative;
+}
+
+.headerimg{
+    background-image: url(../img/music-note.png);
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 100px;
+    margin-top: 12px;
+    position: absolute;
+}
+nav ul{
+    margin-left: 328px;
+    margin-top: 26px;
+    position: absolute;
+}
+nav ul li{
+    float: left;
+    padding: 12px;
+    
+}
+nav ul li a {
+    color: #ffffff;
+}
+h2{
+    padding: 146px 110px;
+}
+.div1{
+    width: 280px;
+    height: 270px;
+    border: solid 2px #000000;
+    
+    position: relative;
+    float: left;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.div1 .img1{
+    right: 0px;
+    top: -70px;
+    position: absolute;
+
+}
+.div1 img{
+    width: 65px;
+    height: 65px;
+    margin-top: 70px;
+}
+.div1 h3{
+    margin-top: 12px;
+}
+.div1 p{
+    margin-top: 12px;
+}
+.div1 p a{
+    margin-top: 12px;
+    color: #000000;
+}
+footer{
+    width: 100%;
+    height: 354px;
+    background-color: #000000;
+    clear: both;
+    color: #ffffff;
+}
+footer ul li{
+    text-align: center;
+    padding: 18px;
+}
+footer ul li img{
+    width: 150px;
+    height: 150px;
+    
+}
+
+
+
+
